@@ -44,7 +44,22 @@ body{background-color: limegreen;}
     color: black;
   }
 
+.grid-wrapper{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+}
+.box > img{width: 100%}
+.box{
+  background-color: darkgreen;
+  padding: 50px;
+  margin: 10px;
+}
+
+
+
 footer{left: 0;bottom: 0;width: 100%;background-color: darkgreen;color: white;text-align: center;}
+
 
 
 
